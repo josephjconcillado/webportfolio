@@ -101,6 +101,10 @@ h1, h2, h3, h4, h5, h6 {
 #project h2{
 	font-size: 54px;
 }
+#project #project-flters{
+	list-style: none;
+	text-align: center;
+}
 
 
 /*Contact Session*/
@@ -122,6 +126,9 @@ h1, h2, h3, h4, h5, h6 {
 #contact .modal-title{
 	font-size: 30px;
 	font-weight: 700;
+}
+#contact #gmap_canvas{
+	height: 50vh;
 }
 
 
