@@ -8,6 +8,10 @@
 	  	<!-- External CSS -->
 		<link rel="stylesheet" type="text/css" href="./index.css">
 
+		<!-- Favicons -->
+		<link href="./images/favicon.png" rel="icon">
+		<link href="./images/apple-touch-icon.png" rel="apple-touch-icon">
+
 		<!-- Font Awesome CSS -->
 		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'>
 		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
@@ -73,7 +77,7 @@
 
 			<!-- About Section -->
 			<section id="about" class="p-5 d-flex">
-				<div class="container-fluid" data-aos="fade-up">
+				<div class="container-fluid">
 				  	<div class="section-title">
 				    	<h2 class="p-3">About Me</h2>
 				  	</div>
@@ -91,7 +95,6 @@
 				    		  	<li><strong>City:</strong> <span>Ormoc City, Leyte, Philippines</span></li>
 				    		  	<li><strong>Age:</strong> <span>33</span></li>
 				    		  	<li><strong>Degree:</strong> <span>BS Computer Engineer/BS Marine Transportation</span></li>
-				    		  	<li><strong>Email:</strong> <span>josephjconcillado@gmail.com</span></li>
 				    		</ul>
 				    	</div> 
 				  		<div class="section-sub-title col-12">
@@ -251,23 +254,17 @@
 					      	<form action="" method="post" role="form" class="">
 					        	<div class="row">
 					          		<div class="col-md-6 form-group">
-					            		<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="required">
+					            		<input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
 					          		</div>
 					          		<div class="col-md-6 form-group mt-3 mt-md-0">
-					            		<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="required">
+					            		<input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
 					          		</div>
 					        	</div>
 					        	<div class="form-group mt-3">
-					          		<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="required">
+					          		<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
 					        	</div>
 					       		<div class="form-group mt-3">
-					          		<textarea class="form-control" name="message" rows="5" placeholder="Message" required="required"></textarea>
-					        	</div>
-
-					        	<div class="my-3">
-					          		<div class="loading">Loading</div>
-					          		<div class="error-message"></div>
-					          		<div class="sent-message">Your message has been sent. Thank you!</div>
+					          		<textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
 					        	</div>
 
 					        	<div class="text-center mb-5"><button class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop" type="submit">Send Message</button></div>
@@ -277,13 +274,13 @@
 					        	  <div class="modal-dialog">
 					        	    <div class="modal-content">
 					        	      <div class="modal-header">
-					        	        <h5 class="modal-title" id="staticBackdropLabel">Thank you for Contacting!</h5>
+					        	        <h5 class="modal-title" id="staticBackdropLabel">Thank you for keeping in touch.</h5>
 					        	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					        	          <span aria-hidden="true">&times;</span>
 					        	        </button>
 					        	      </div>
 					        	      <div class="modal-body">
-					        	        Successfully submitted!
+					        	        Your message has been sent!
 					        	      </div>
 					        	      <div class="modal-footer">
 					        	        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
