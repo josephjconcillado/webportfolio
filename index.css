@@ -155,6 +155,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  z-index: 10;
 }
 #footer .social-links a:hover {
   background: #0677e1;
@@ -166,9 +167,10 @@ h1, h2, h3, h4, h5, h6 {
 #backtop a{
 	color: #45505b;
 	padding: 10px 20px;
-	margin-bottom: 8px;
+	/*margin-bottom: 8px;*/
 	border-radius: 50px;
 	background: #f2f3f5;
+	display: relative;
 }
 #backtop a:hover{
   color: #fff;
